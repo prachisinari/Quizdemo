@@ -11,7 +11,9 @@ import lombok.Data;
 public class Question {
 
     public Integer getId() {
+        System.out.println("Hi ");
         return id;
+
     }
 
     public void setId(Integer id) {
